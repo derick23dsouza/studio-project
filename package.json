@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "format": "npx ultracite format",
-    "lint": "npx ultracite lint"
+    "lint": "npx ultracite lint",
+    "prepare": "husky"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
