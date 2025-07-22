@@ -99,7 +99,7 @@ export default function Header() {
       </div>
 
       {/* Mobile Menu Overlay */}
-      <div className="absolute top-[100%] right-0 left-0 block h-[8944.09px] w-full overflow-hidden [@media(min-width:992px)]:hidden">
+      <div className="absolute top-[100%] right-0 left-0 block h-[20vw] w-full overflow-hidden [@media(min-width:992px)]:hidden">
         <nav
           className={`absolute right-0 left-0 min-w-[200px] transform overflow-visible bg-[#171717] p-5 text-center transition-all duration-500 ease-in-out ${
             isOpen ? "translate-y-0" : "-translate-y-full"

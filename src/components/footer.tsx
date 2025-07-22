@@ -6,7 +6,7 @@ import { footerLinks, socialItems } from "@/utils/nav-items";
 
 export default function Footer() {
   return (
-    <footer className="z-[2] flex flex-col overflow-hidden bg-black px-[3%] pt-[3%] pb-0">
+    <footer className="z-2 mt-auto flex flex-col overflow-hidden bg-black px-[3%] pt-[3%] pb-0">
       <div className="mx-auto w-full">
         <div className="mx-auto flex max-w-[900px] flex-col gap-5">
           <div className="flex items-center justify-center gap-2.5">

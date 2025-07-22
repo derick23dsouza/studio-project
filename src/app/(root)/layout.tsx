@@ -3,10 +3,10 @@ import Header from "@/components/header";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <>
+    <main className="box-border flex min-h-screen flex-col">
       <Header />
-      <main>{children}</main>
+      {children}
       <Footer />
-    </>
+    </main>
   );
 }
