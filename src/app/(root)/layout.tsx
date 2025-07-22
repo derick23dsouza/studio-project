@@ -1,11 +1,11 @@
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 
-export default function HomePage() {
+export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <>
       <Header />
-      <main className="grid min-h-screen grid-rows-[auto_1fr_auto]" />
+      <main>{children}</main>
       <Footer />
     </>
   );
