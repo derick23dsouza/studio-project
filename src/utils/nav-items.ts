@@ -21,3 +21,12 @@ export const mobileNavItems = [
   ...mainNavItems,
   ...secondaryNavItems.slice(0, 2),
 ];
+
+export const footerLinks = [
+  { label: "Home", href: "/" },
+  { label: "About", href: "/" },
+  { label: "Work", href: "/" },
+  { label: "News", href: "/" },
+  { label: "Pricing", href: "/" },
+  { label: "Contact", href: "/" },
+];
