@@ -95,7 +95,10 @@ export default function AboutSection() {
               </div>
               {i === sections.length - 1 && (
                 <div className="mt-[70px] flex items-center justify-center">
-                  <FooterLinks className="text-black" href="/">
+                  <FooterLinks
+                    className="text-[1rem] text-black [@media(max-width:479px)]:text-[0.875rem]"
+                    href="/"
+                  >
                     More about our studio
                   </FooterLinks>
                 </div>
