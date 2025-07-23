@@ -4,7 +4,7 @@ export default function Hero() {
     <div className="-mb-0.5 h-[80vh] w-full bg-white text-black [@media(max-width:479px)]:h-[500px] [@media(min-width:992px)]:h-[250vh]">
       <div className="relative top-0 h-full w-full flex-col items-center justify-center overflow-hidden [@media(min-width:992px)]:sticky [@media(min-width:992px)]:h-screen">
         <div className="flex h-full w-full flex-col items-center justify-center overflow-hidden bg-black pt-0 [@media(min-width:992px)]:pt-[6.25rem]">
-          <div className="relative z-4 w-[90vw]">
+          <div className="relative z-4 w-[95vw]">
             <Image
               alt="Moonlight Studio Logo"
               className="inline-block w-full align-middle"
