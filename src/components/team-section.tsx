@@ -4,7 +4,7 @@ import TeamMembers from "@/components/team-members";
 
 export default function TeamSection() {
   return (
-    <section className="relative z-3 overflow-hidden bg-white px-[3%] py-[300px] [@media(max-width:479px)]:py-[50px]">
+    <section className="relative z-3 overflow-hidden bg-white px-[3%] py-[150px] [@media(max-width:479px)]:py-[50px]">
       <div className="relative mx-auto w-full">
         <SectionHeading firstWord="the" secondWord="team" />
       </div>
