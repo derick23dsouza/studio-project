@@ -24,7 +24,7 @@ export function FooterLinks({
       <div className="relative inline-block">
         <span
           className={`text-[1rem] uppercase leading-5 [@media(max-width:479px)]:text-[0.875rem] ${
-            isDefault ? "font-medium text-white" : `${className} font-semibold`
+            isDefault ? "font-medium text-white" : `${className} font-[600]`
           }`}
           ref={textRef}
         >
