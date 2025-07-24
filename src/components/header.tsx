@@ -24,7 +24,7 @@ export default function Header() {
     <header className="absolute inset-x-0 top-0 z-[999]">
       <div className="z-[1000] flex items-center justify-between px-[3%] py-[19px] md:grid md:grid-cols-4 md:items-center md:gap-x-10 md:gap-y-10 [@media(min-width:992px)]:items-start [@media(min-width:992px)]:pt-10 [@media(min-width:992px)]:pb-5">
         {/* Logo */}
-        <Link className="inline-block max-w-full no-underline" href="/">
+        <Link className="inline-block max-w-full" href="/">
           <p className="mb-0 font-medium text-[1.3rem] uppercase leading-[1.3]">
             Moon ®
           </p>
@@ -76,7 +76,7 @@ export default function Header() {
           <div className="flex items-center gap-x-[5px] md:gap-x-[15px]">
             {/* Cart */}
             <Link
-              className="flex items-center justify-start gap-x-[0.4rem] overflow-hidden py-1 no-underline"
+              className="flex items-center justify-start gap-x-[0.4rem] overflow-hidden py-1"
               href="/"
             >
               <div>CART</div>
@@ -99,7 +99,7 @@ export default function Header() {
       </div>
 
       {/* Mobile Menu Overlay */}
-      <div className="absolute top-[100%] right-0 left-0 block h-[20vw] w-full overflow-hidden [@media(min-width:992px)]:hidden">
+      <div className="absolute top-[100%] right-0 left-0 block h-[20vh] w-full overflow-hidden [@media(min-width:992px)]:hidden">
         <nav
           className={`absolute right-0 left-0 min-w-[200px] transform overflow-visible bg-[#171717] p-5 text-center transition-all duration-500 ease-in-out ${
             isOpen ? "translate-y-0" : "-translate-y-full"

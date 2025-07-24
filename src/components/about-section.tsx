@@ -80,7 +80,7 @@ export default function AboutSection() {
         >
           {sections.map((content, i) => (
             <div className="relative overflow-hidden" key={i}>
-              <p className="mt-0 mb-[10px] text-center font-semibold text-[3.5vw] leading-[1.2] opacity-100 max-[479px]:px-[4%] max-[991px]:px-[2%] max-[479px]:text-[28px] max-[767px]:text-[2.3rem] max-[991px]:text-[2.6rem]">
+              <p className="mt-0 mb-[10px] text-center font-semibold text-[3.5vw] leading-[1.2] max-[479px]:px-[4%] max-[991px]:px-[2%] max-[479px]:text-[28px] max-[767px]:text-[2.3rem] max-[991px]:text-[2.6rem]">
                 {content}
               </p>
               <div className="pointer-events-none absolute inset-0 z-10 h-full w-full overflow-hidden">
@@ -95,10 +95,7 @@ export default function AboutSection() {
               </div>
               {i === sections.length - 1 && (
                 <div className="mt-[70px] flex items-center justify-center">
-                  <FooterLinks
-                    className="text-[1rem] text-black [@media(max-width:479px)]:text-[0.875rem]"
-                    href="/"
-                  >
+                  <FooterLinks className="text-black" href="/">
                     More about our studio
                   </FooterLinks>
                 </div>
