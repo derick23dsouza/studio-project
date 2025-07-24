@@ -48,7 +48,6 @@ export default function TeamMembers() {
         start: "top bottom-=50px",
         end: "bottom bottom-=300px",
         scrub: true,
-        markers: true,
       },
     });
   });
